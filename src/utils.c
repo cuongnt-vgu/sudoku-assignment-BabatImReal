@@ -11,7 +11,7 @@ void init_sudoku(SudokuBoard *p_board)
     {
         p_board->data[i] = malloc(BOARD_SIZE * sizeof(Cell));
         p_board->p_rows[i] = malloc(BOARD_SIZE * sizeof(Cell *));
-        p_board->p_cols[i] = malloc(BOARD_SIZE * sizeof(Cell *));
+        p_board->p_cols[i]   = malloc(BOARD_SIZE * sizeof(Cell *));
         p_board->p_boxes[i] = malloc(BOARD_SIZE * sizeof(Cell *));
     }
 
