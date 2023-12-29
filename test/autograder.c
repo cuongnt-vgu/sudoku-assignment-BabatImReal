@@ -127,9 +127,9 @@ method get_method(char *method_name)
     else if (strcmp(method_name, "hidden_pairs") == 0)
         return hidden_pairs;
     else if (strcmp(method_name, "naked_triples") == 0)
-        return naked_triples;
+        return naked_triple;
     else if (strcmp(method_name, "hidden_triples") == 0)
-        return hidden_triples;
+        return hidden_triple;
     else
         return NULL;
 }

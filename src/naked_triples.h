@@ -24,6 +24,6 @@ int find_naked_triple_values(Cell **p_cells, int *naked_triple_values);
 
 // find hidden single cells in a row, in a collumn or in a box
 void find_naked_triple(Cell **p_cells, NakedTriple *p_naked_triple,
-                        int *p_counter);
+                        int *p_counter, int *duplicate);
 
 int naked_triple(SudokuBoard *p_board);

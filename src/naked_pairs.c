@@ -105,7 +105,6 @@ int naked_pairs(SudokuBoard *p_board)
         if (is_in_naked_pair_cell(solved_cell, p_naked_double[i].p_cell1))
         {
             overlap += 1;
-            continue;
         }
         solved_cell[solved_cell_count++] = p_naked_double[i];
         for (int k = 0; k < BOARD_SIZE; k++)

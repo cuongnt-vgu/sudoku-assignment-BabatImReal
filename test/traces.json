@@ -88,5 +88,95 @@
             "num_detects": 3,
             "boards": "soocs8dkdk6408ei6mco8c03g1ck6411eg6k1121c009034484g10g03h8h821l8k80g0581q8p80h96pcge4132g00541r092p00h223209k00hk0462181060911e88a054i4o11g1ei6iu8pav84mkskea6ei6m"
         }
+    },
+    "test011": {
+        "description": "Hidden pairs",
+        "board_input": "41051g02g1211g8009io22ga058011ii40iij081g208400hj205j218400cg00g801e211603g021110409810g41980h8c200240hc18h43g095g8130027kg13krg32o24130053o183g0530500h09g0700381",
+        "method": "hidden_pairs",
+        "output": {
+            "num_detects": 1,
+            "boards": "41051g02g1211g8009io22ga058011ii40iij081g208400hj205j218400cg00g801e211603g021110409810g41980h8c200240hc18h43g095g8130027kg13ko032o04130053o183g0530500h09g0700381"
+        }
+    },
+    "test012": {
+        "description": "Hidden singles",
+        "board_input": "41051g02g1211g9009io22gq058011ii40iij081h208400hj205j29850dcg00gc01e211603g021110409810g41980hdc2002c0hc18h43g095g8130027kg13krg32pi4130053o183g0570500h09g0700381",
+        "method": "hidden_singles",
+        "output": {
+            "num_detects": 1,
+            "boards": "41051g02g1211g8009io22gq058011ii40iij081h208400hj205j29850dcg00gc01e211603g021110409810g41980hdc2002c0hc18h43g095g8130027kg13krg32pi4130053o183g0570500h09g0700381"
+        }
+    },
+    "test013": {
+        "description": "Hidden pairs",
+        "board_input": "4105300hg281j209i2j081381ag614j20h410hh80318412181h00581033k4109g130342gi0k86s811103m8i4igh0l85805210hla81g20550g12181500h0309090h50120654i0i081032181g10h09054111",
+        "method": "hidden_pairs",
+        "output": {
+            "num_detects": 2,
+            "boards": "4105300hg281j209i2j081381ag614j20h410hh80318412181h00581030k4109g130342gi0k80k81110348i4igh0l85805210h4881g20550g12181500h0309090h50120654i0i081032181g10h09054111"
+        }
+    },
+    "test014": {
+        "description": "Naked pairs",
+        "board_input": "0h2a0am01105i2m881413281090iiij2i005g13e1e608122320h4811g12103054109810h038141gg09gg0511210c0c0h1121814103g1810hge644222i0mc112474h46k4g0981m4032c6e0e81g1110h6c48",
+        "method": "naked_pairs",
+        "output": {
+            "num_detects": 4,
+            "boards": "0h2a0am01105i2m881413281090iggj2i005g13e1e608122320h4811g12103054109810h038141gg09gg0511210c0c0h1121814103g1810hge644222i0mc112474h46k4g0981m4032c6e0e81g1110h6c48"
+        }
+    },
+    "test015": {
+        "description": "Naked pairs",
+        "board_input": "402g05agg1bi09a23g812o116s4u6uiim6mk032og0esdsfsbge47k14g18a8c219e400h0c2k2u6qks4ukui011813kbseossdstsi0ic03jg41aiqo8oqo05qajo09amai11ckukqiu2mgjkbkag03csusrgu8no",
+        "method": "naked_pairs",
+        "output": {
+            "num_detects": 1,
+            "boards": "402g05agg1bi09a23g812o116s4u6u0im6mk032og0esdsfs9ge47k14g18a8c219e400h0c2k2u6qks4ukui011813kbseossdstsi00c03jg41aiqo8oqo05qajo09amai11ckuk8iu2mgjkbkag03csus9gu8no"
+        }
+    },
+    "test016": {
+        "description": "Hidden triples",
+        "board_input": "sgog4gfkcg03ik09tk050903fgg1d02g30dgsg2111ckcg0903o4sk214181g1050h09121203gk09c011c0gkg421hghk0k03092141o4ok8g8mg10921841141065014215403g1810h09099m4kdkcgd4i422g6",
+        "method": "hidden_triples",
+        "output": {
+            "num_detects": 1,
+            "boards": "sgog4g34cg03240914050903fgg1d02g30dgsg2111ckcg0903o4sk214181g1050h09121203gk09c011c0gkg421hghk0k03092141o4ok8g8mg10921841141065014215403g1810h09099m4kdkcgd4i422g6"
+        }
+    },
+    "test017": {
+        "description": "Hidden triples",
+        "board_input": "gaa2a241040hqaa811h8058gj003h88g41i8la6i72j081h8ia2o05c2g14i82082105114g210i04h041h2g80o81c01109050go0m003i00he2f208g182f004225209d2822104dgg14g05a2g00h1041a8a82a",
+        "method": "hidden_triples",
+        "output": {
+            "num_detects": 1,
+            "boards": "gaa2a241040hqaa811h8058gj003h88g41i8la6i72j081h8ia2o05c2g14i82082105114g210i04h041h2g80o81c01109050go0m003i00he2f208g1825004225209d28221045gg14g05a2g00h1041a8a82a"
+        }
+    },
+    "test018": {
+        "description": "Naked triples",
+        "board_input": "gaa2a241040hgaa811h8058g2003h88g41g8la6i72h081h8ga2o05c2g14i82082105114g210i04h041h2g80o81c01109050go06003i00he2f208g1825004221209d28221045gg14g0522g00h1041a0a80a",
+        "method": "naked_triples",
+        "output": {
+            "num_detects": 5,
+            "boards": "gaa2a241040hgaa011h8058g2003h88g41g8la6i72h081h8ga2g05c2g14i82082105114g210i04h041h2g80o81c01109050go06003i00he2f208g1825004221209d28221045gg14g0522g00h1041a0a80a"
+        }
+    },
+    "test019": {
+        "description": "Naked triples",
+        "board_input": "402g05agg1bi09a23g812o116s4u6u0im6mk032og0esdsfs9ge47k14g18a8c219e400h0c2k2u6qks4ukui011813kbseossdstsi00c03jg41aiqo8oqo05qajo09amai11ckuk8iu2mgjkbkag03csus9gu8no",
+        "method": "naked_triples",
+        "output": {
+            "num_detects": 1,
+            "boards": "402g05agg1bi09a23g812o116s4u6u0im6mk032og0esdsfs9ge47k14g18a8c219e400h0c2k066qks4ukui011813k94eossdstsi00c03jg41aiqo8oqo05qajo0986ai11ckuk8iu2mgjk94ag03csus9gu8no"
+        }
+    },
+    "test020": {
+        "description": "Naked triples",
+        "board_input": "42620h096005g181114c81h803kg5g4c0c214c64h881m0704c0h03g10m82214u4q11068k8m0921g1110i0m418k0m11410k0m8121g10911g18a0kau2q0u0e41cq4i8a118ug10u210k210i05410q0q8111g1",
+        "method": "naked_triples",
+        "output": {
+            "num_detects": 9,
+            "boards": "42620h096005g181114c81h003gg1g4c0c214c64h081m0704c0h03g10m8221484811068k8m0921g1110i0m418k0m11410k0m8121g10911g18a0kau2q0u0e41cq4i8a118ug10u210k210i05410q0q8111g1"
+        }
     }
 }
